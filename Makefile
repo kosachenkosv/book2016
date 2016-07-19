@@ -5,7 +5,7 @@ SCHEMES_FZZ = $(shell find $(SCHEMES_DIR) -name "*.fzz")
 SCHEMES_SCH = $(SCHEMES_FZZ:%.fzz=%_schematic.png)
 CHAPTERS = $(shell find chapters -name "*.tex")
 
-# %_breadboard.svg %_schematic.svg: %.fzz
+#  %_breadboard.svg %_schematic.svg: %.fzz
 #	fritzing -svg $(SCHEMES_DIR) $<
 
 # %_nologo.svg: %.svg
